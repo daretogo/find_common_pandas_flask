@@ -1,0 +1,41 @@
+<style>
+    table {
+        border-collapse: collapse;
+        width: 80%;
+        background-color: #e0e0e0;
+        font-family: sans-serif;
+      }
+      
+      tr:nth-child(even) {
+        background-color: #c0c0c0;
+</style>
+<form method="POST"> 
+<!--    <table> -->
+        <caption><h1>Data Comparison of New Visitors vs Homebuyers</h1></caption>
+<!-- <tr><td> --> New Visitors Full Path Filename:<br>
+    <textarea rows="1" cols="140" id="newvfilename"></textarea><br>
+    <i>NOTE: An easy way to copy the full path to a file in windows is to hold down the SHIFT key when you right click on the file and select the option <strong>Copy as Path</strong> and the full file path and filename will be copied for pasting here.</i>
+    <br>
+    <br>
+
+    <i>Optional overrides for sheet name, column names, defaults pre-populated</i><br>
+    Sheet Name:<textarea rows="1" cols="25" id="newvsheetname">Sheet1</textarea><br>
+    Street Name Column Override: <textarea rows="1" cols="20" id="newv_street">Mailing Street</textarea> City Name Colum Override: <textarea rows="1" cols="20" id="newv_city">Mailing City</textarea> Zip Column Override: <textarea rows="1" cols="20" id="newv_zip">Mailing Zip</textarea>
+    <br> <br>
+    <br> <br>
+<!-- </td></tr> -->
+<!-- <tr><td> --> Homebuyers Full Path Filename:<br>
+    <textarea rows="1" cols="140" id="homebuyersfilename"></textarea><br>
+    <br>
+    <i>Optional overrides for column names, defaults pre-populated</i><br>
+    Sheet Name:<textarea rows="1" cols="25" id="homebsheetname">Crossroads&Grace Bible</textarea><br>
+    Street Name Column Override: <textarea rows="1" cols="20" id="homeb_street">Situs Street Address</textarea> City Name Colum Override: <textarea rows="1" cols="20" id="homeb_city">Situs City</textarea> Zip Column Override: <textarea rows="1" cols="20" id="homeb_zip">Situs Zip Code</textarea>
+    <br> <br>
+    <br> <br>
+<!-- </td></tr> 
+</table> -->
+    Filename to store the result:<br>
+    <textarea rows="1" cols="140" id="resultpath"></textarea><br>
+    <br>
+    <input type="submit" value="Compare">
+</form>
